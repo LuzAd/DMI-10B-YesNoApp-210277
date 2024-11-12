@@ -17,7 +17,7 @@ class ChatScreen extends StatelessWidget {
                 'https://img2.yna.co.kr/etc/inner/SP/2021/10/10/ASP20211010001100883_02_i_P4.jpg'),
           ),
         ),
-        title: Text('Jisoo'),
+        title: Text('Jisoo ❤️'),
         centerTitle: false,
       ),
       body: _ChatView(),
@@ -41,7 +41,7 @@ class _ChatView extends StatelessWidget {
                 ? const OtherMessageBubble()
                 : const MyMessageBubble();
               })),
-              Text('Cristiano')
+              const MessageFieldBox(),
           ],
         ),
       ),
